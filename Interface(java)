@@ -1,0 +1,33 @@
+
+public interface Animal {
+	public void sound();
+	public void food();
+}
+
+
+public class NewAb {
+public static void main(String ars[])
+{
+	leo myleo=new leo();
+		myleo.sound();
+		myleo.food();
+}
+}
+
+
+
+public class leo implements Animal{
+
+	
+	public void sound() {
+		
+			System.out.println("Grr Grr");
+			
+	}
+	public void food() 	
+	{
+			System.out.println("Carnivore");
+	}
+	
+	
+}
